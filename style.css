@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  background-color: antiquewhite;
+  width: 300px;
+  height: 100vh;
+}
+.sidebar > nav {
+  padding: 25px;
+}
+nav > ul > li {
+  list-style: none;
+  font-size: 30px;
+  padding: 33px 0px;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+nav > ul > li > a:hover {
+  color: rgb(25, 200, 219);
+  background-color: rgba(93, 220, 20, 0.347);
+  border-radius: 8px;
+  padding: 4px;
+}
+.container {
+  display: flex;
+}
+.devinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+.devinfo {
+  display: flex;
+  /* border: 2px solid; */
+  gap: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  padding: 16px;
+}
+.about {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.profileimage > img {
+  height: 25rem;
+  width: 23rem;
+}
+.btns {
+  height: 47px;
+  width: 149px;
+  background-color: rgb(61, 61, 248);
+  font-size: 21px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+  gap: 16px;
+}
+.moredetail {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 16px;
+  text-align: justify;
+}
+.btns > a {
+  text-decoration: none;
+}
+.btns:hover {
+  background-color: rgba(127, 255, 212, 0.676);
+  color: black;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+input[type="email"] {
+  width: 100px;
+  width: 41rem;
+  height: 1.7rem;
+  padding: 8px;
+}
+input[type="number"] {
+  width: 100px;
+  width: 41rem;
+  height: 1.7rem;
+  padding: 8px;
+}
+.checkbox {
+  display: flex;
+  gap: 8px;
+}
+.formsection {
+  margin-top: 16px;
+}
+.main {
+  background-color: rgba(0, 0, 0, 0.697);
+  color: white;
+}
+.contactme {
+  text-align: center;
+  padding: 8px;
+}
